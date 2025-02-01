@@ -19,7 +19,7 @@ from .handlers import (
 from .version import __version__
 
 # Configure logging
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger("mcp-text-editor")
 
 app = Server("mcp-text-editor")
